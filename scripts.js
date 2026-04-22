@@ -24,17 +24,17 @@
  */
 // image URLs for each monster hunter creature used in the cards
 const Rathalos_URL =
-  "https://static.wikia.nocookie.net/monsterhunter/images/1/12/MHWilds-Rathalos_Render_001.png/revision/latest?cb=20251112050049";
+  "https://i.imgur.com/RQO2tW6.png";
 const Lagiacrus_URL =
-  "https://static.wikia.nocookie.net/monsterhunter/images/7/77/MHWilds-Lagiacrus_Render_001.png/revision/latest?cb=20250626232337";
+  "https://i.imgur.com/0aRKfq0.png";
 const Gore_Magala_URL =
-  "https://static.wikia.nocookie.net/monsterhunter/images/1/19/MHWilds-Gore_Magala_Render_001.png/revision/latest?cb=20250204234508";
+  "https://i.imgur.com/kbRjgJT.gif";
 const Dodogama_URL =
-"https://static.wikia.nocookie.net/monsterhunter/images/d/d3/MHW-Dodogama_Render_001.png/revision/latest?cb=20180111125129"
-const Rathain_URL = 
-"https://static.wikia.nocookie.net/monsterhunter/images/5/52/RathianWilds.png/revision/latest?cb=20250207223610"
+"https://i.imgur.com/LqzYIUN.jpeg"
+const Rathian_URL = 
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9V8bxMIUeuP5cTGD1YrOaOhZC4Y_PEqPpHyNaSV0guebv_1P2UvY_HJhRr2-OctZTy60hdjSZsrj5YdB_vBAbjRFhUs3ptXx67SEmNYEG9nZelRBvRJ5T8-FQIt_Bh-oevCZj34D0zdBI/s320/MHF2-Rathian_Render_001.png"
 const Nargacuga_URL = 
-"https://static.wikia.nocookie.net/monsterhunter/images/2/23/MHRise-Nargacuga_Render_001.png/revision/latest?cb=20210308140819"
+"https://i.imgur.com/niW8gk3.png"
 // Changed from string array to array of monster data objects used to generate the cards on the page
 //each object stores basica information about a monster hunter creature
 let titles = [
@@ -80,7 +80,7 @@ let titles = [
 
 // This function adds cards the page to display the data in the array
 function showCards() {
-  const images = [Rathalos_URL,Lagiacrus_URL,Gore_Magala_URL,Dodogama_URL,Rathain_URL,Nargacuga_URL]; // changed it so its an array of images that match the order of monsters in object array
+  const images = [Rathalos_URL,Lagiacrus_URL,Gore_Magala_URL,Dodogama_URL,Rathian_URL,Nargacuga_URL]; // changed it so its an array of images that match the order of monsters in object array
 
   const cardContainer = document.getElementById("card-container");
   cardContainer.innerHTML = "";
